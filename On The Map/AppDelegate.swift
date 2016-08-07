@@ -12,6 +12,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var currentStudent: UDStudent? //** Current user logged in
+    var students : [UDStudent]? //** Array of students
+    var onTheMap : Bool?  //** If student loction is posted this is true
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
